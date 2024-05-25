@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('img4.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 100vh; 
+    margin: 0;
+}
+
+
+.header {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.title {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+}
+
+.visualiser {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.name {
+    color: white;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    margin-left: auto;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 32px;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+#container {
+    margin-top: 20px;
+    height: 300px;
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 5);
+    background-color: rgba(1, 0.5, 0.5, 0.7); 
+}
+
+.bar {
+    width: 150px;
+    margin: 2px;
+    display: inline-block;
+    position: relative;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.bar span {
+    position: center;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+}
+
+.box {
+    width:80px;
+    height:80px;
+    margin: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: hsl(101, 100%, 35%);
+}
+
+#search-options {
+    margin-top: 10px;
+}
+
+#search-input {
+    margin-top: 20px;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 40px;
+    color: green;
+    border: 2px solid black;
+}
+
+.search-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.sorting-buttons {
+    position: absolute;
+    right: 10px;
+}
